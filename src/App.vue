@@ -25,9 +25,7 @@ export default {
     }
   },
   mounted(){
-    // fetch("https://api.punkapi.com/v2/beers")
-    fetch("https://ghibliapi.herokuapp.com/films") //films
-    // fetch("http://strainapi.evanbusse.com/dxyTKu0/strains/search/all")
+    fetch("https://ghibliapi.herokuapp.com/films")
     .then(res => res.json())
     .then(films => this.films = films)
 
@@ -47,10 +45,10 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: black;
+  color: #7CFFC4;
   margin-top: 60px;
   /* background-image: url('./src/assets/mj2.jpg') */
-  background-color: #6564DB;
+  background-color: #33A1FD;
 }
 #app2 {
   font-family: sans-serif;
@@ -65,4 +63,5 @@ export default {
 </style>
 
 
-<!-- S3926UZC7PQF7CRD -->
+    <!-- // fetch("http://strainapi.evanbusse.com/dxyTKu0/strains/search/all") -->
+        <!-- // fetch("https://api.punkapi.com/v2/beers") -->
